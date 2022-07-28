@@ -14,6 +14,10 @@
   "bugs": "https://github.com/skarab42/typescript-config/issues",
   "funding": "https://github.com/sponsors/skarab42",
   "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "main": "tsconfig.json",
   "files": [
