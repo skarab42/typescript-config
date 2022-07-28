@@ -22,10 +22,26 @@
     "tsconfig.node16.json",
     "tsconfig.node17.json"
   ],
+  "scripts": {
+    "prepare": "npx simple-git-hooks",
+    "semantic-release": "semantic-release --branches main",
+    "format": "prettier **/* --write --cache --ignore-unknown"
+  },
+  "prettier": "@skarab/prettier-config",
   "devDependencies": {
+    "@skarab/prettier-config": "^1.2.2",
     "@skarab/tsinit": "^1.0.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.3",
+    "simple-git-hooks": "^2.8.0",
     "typescript": "^4.7.4"
   },
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
+  "packageManager": "pnpm@7.6.0",
   "keywords": [
     "typescript-config",
     "typescript",
