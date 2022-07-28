@@ -1,7 +1,7 @@
 {
   "name": "@skarab/typescript-config",
   "version": "0.0.0-development",
-  "description": "My TypeScript config",
+  "description": "My shared TypeScript config",
   "author": {
     "name": "skarab42",
     "email": "contact@skarab42.dev"
