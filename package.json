@@ -1,0 +1,32 @@
+{
+  "name": "@skarab/typescript-config",
+  "version": "0.0.0-development",
+  "description": "My TypeScript config",
+  "author": {
+    "name": "skarab42",
+    "email": "contact@skarab42.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skarab42/typescript-config.git"
+  },
+  "homepage": "https://github.com/skarab42/typescript-config",
+  "bugs": "https://github.com/skarab42/typescript-config/issues",
+  "funding": "https://github.com/sponsors/skarab42",
+  "license": "MIT",
+  "type": "module",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "devDependencies": {
+    "@skarab/tsinit": "^1.0.2",
+    "typescript": "^4.7.4"
+  },
+  "keywords": [
+    "typescript-config",
+    "typescript",
+    "tsconfig",
+    "config"
+  ]
+}

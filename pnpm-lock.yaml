@@ -1,0 +1,39 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@skarab/tsinit': ^1.0.2
+  typescript: ^4.7.4
+
+devDependencies:
+  '@skarab/tsinit': 1.0.2_typescript@4.7.4
+  typescript: 4.7.4
+
+packages:
+
+  /@skarab/tsinit/1.0.2_typescript@4.7.4:
+    resolution: {integrity: sha512-HnW3xqX7NS2sNJ9tMJab5M0Z0ZhFwhLh7+VDL5T/GA6IkV7vq8uJk4+ffGgLepJzFZ+IssjnZI5S5craZSgQrw==}
+    engines: {node: '>=14', pnpm: '>=7'}
+    hasBin: true
+    peerDependencies:
+      typescript: '>=4'
+    dependencies:
+      typescript: 4.7.4
+      unleashed-typescript: 1.3.0_typescript@4.7.4
+    dev: true
+
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /unleashed-typescript/1.3.0_typescript@4.7.4:
+    resolution: {integrity: sha512-ORMwdtBlEQTD4Dl+HkPVfwnIG5wKBqQn72INfCHGN8dgZ3AFKwv1m7a4tL1JEGLwCUzFVH3sq/nDxPjDmvlWwg==}
+    engines: {node: '>=12', pnpm: '>=6'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      typescript: '*'
+    dependencies:
+      typescript: 4.7.4
+    dev: true
