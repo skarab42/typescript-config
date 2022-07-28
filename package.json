@@ -17,7 +17,10 @@
   "type": "module",
   "main": "tsconfig.json",
   "files": [
-    "tsconfig.json"
+    "tsconfig.json",
+    "tsconfig.node14.json",
+    "tsconfig.node16.json",
+    "tsconfig.node17.json"
   ],
   "devDependencies": {
     "@skarab/tsinit": "^1.0.2",
