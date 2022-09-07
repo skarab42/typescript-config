@@ -31,7 +31,7 @@
     /** Interop Constraints */
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": false,
 
     /** Type Checking */
     "strict": true,
