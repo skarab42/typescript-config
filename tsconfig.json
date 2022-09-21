@@ -46,6 +46,7 @@
     "noPropertyAccessFromIndexSignature": true,
 
     /** Completeness */
-    "skipLibCheck": true
+    "skipLibCheck": false,
+    "skipDefaultLibCheck": true
   }
 }
