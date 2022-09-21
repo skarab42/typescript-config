@@ -46,7 +46,7 @@
     "noPropertyAccessFromIndexSignature": true,
 
     /** Completeness */
-    "skipLibCheck": false,
+    "skipLibCheck": true, // https://github.com/microsoft/TypeScript/issues/30511
     "skipDefaultLibCheck": true
   }
 }
