@@ -14,7 +14,8 @@ Add `@skarab/typescript-config` to the extends section of your TypeScript config
 {
   "extends": "@skarab/typescript-config",
   "compilerOptions": {
-    "outDir": "build"
+    "outDir": "build",
+    "noEmit": false // true by default
   }
 }
 ```
@@ -23,4 +24,3 @@ Add `@skarab/typescript-config` to the extends section of your TypeScript config
 
 - [@skarab/eslint-config](https://github.com/skarab42/eslint-config)
 - [@skarab/prettier-config](https://github.com/skarab42/prettier-config)
-- [@skarab/typescript-config](https://github.com/skarab42/typescript-config)

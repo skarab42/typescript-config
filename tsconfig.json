@@ -6,14 +6,13 @@
     /** Compiler Diagnostics */
     "listEmittedFiles": true,
 
-    /** Language and Environment */
-    "target": "esnext",
-    "lib": [],
-    "moduleDetection": "force",
-
     /** Modules */
     "module": "esnext",
     "moduleResolution": "nodenext",
+
+    /** Language and Environment */
+    "target": "esnext",
+    "moduleDetection": "force",
 
     /** JavaScript Support */
     "allowJs": true,
@@ -21,17 +20,19 @@
     "maxNodeModuleJsDepth": 0,
 
     /** Emit */
+    "noEmit": true,
+    "noEmitOnError": true,
     "declaration": true,
     "sourceMap": false,
     "importHelpers": true,
     "importsNotUsedAsValues": "error",
     "newLine": "lf",
-    "noEmitOnError": true,
 
     /** Interop Constraints */
     "isolatedModules": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false,
+    "forceConsistentCasingInFileNames": true,
 
     /** Type Checking */
     "strict": true,

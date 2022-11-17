@@ -21,10 +21,7 @@
   "type": "module",
   "main": "tsconfig.json",
   "files": [
-    "tsconfig.json",
-    "tsconfig.node14.json",
-    "tsconfig.node16.json",
-    "tsconfig.node17.json"
+    "tsconfig.json"
   ],
   "scripts": {
     "prepare": "npx simple-git-hooks",
