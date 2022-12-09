@@ -30,8 +30,7 @@
 
     /** Interop Constraints */
     "isolatedModules": true,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": false,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
 
     /** Type Checking */
