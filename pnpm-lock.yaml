@@ -8,9 +8,6 @@ devDependencies:
   '@skarab/prettier-config':
     specifier: ^1.2.2
     version: 1.2.2(prettier@3.1.1)
-  '@skarab/tsinit':
-    specifier: ^1.1.0
-    version: 1.1.0(typescript@5.3.3)
   lint-staged:
     specifier: ^15.2.0
     version: 15.2.0
@@ -306,17 +303,6 @@ packages:
       prettier: '>=2'
     dependencies:
       prettier: 3.1.1
-    dev: true
-
-  /@skarab/tsinit@1.1.0(typescript@5.3.3):
-    resolution: {integrity: sha512-75xVyuIFQV5VOyBmn+mxYgiKnM64pHmQueJQmGslcLzciGtUfYL3CqTJjJw5SReZJ0FJsWFIYO23uzkn6qRTFQ==}
-    engines: {node: '>=14', pnpm: '>=7'}
-    hasBin: true
-    peerDependencies:
-      typescript: '>=4'
-    dependencies:
-      typescript: 5.3.3
-      unleashed-typescript: 1.3.0(typescript@5.3.3)
     dev: true
 
   /@types/normalize-package-data@2.4.4:
@@ -2004,17 +1990,6 @@ packages:
   /universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
-    dev: true
-
-  /unleashed-typescript@1.3.0(typescript@5.3.3):
-    resolution: {integrity: sha512-ORMwdtBlEQTD4Dl+HkPVfwnIG5wKBqQn72INfCHGN8dgZ3AFKwv1m7a4tL1JEGLwCUzFVH3sq/nDxPjDmvlWwg==}
-    engines: {node: '>=12', pnpm: '>=6'}
-    hasBin: true
-    requiresBuild: true
-    peerDependencies:
-      typescript: '*'
-    dependencies:
-      typescript: 5.3.3
     dev: true
 
   /url-join@5.0.0:

@@ -31,7 +31,6 @@
   "prettier": "@skarab/prettier-config",
   "devDependencies": {
     "@skarab/prettier-config": "^1.2.2",
-    "@skarab/tsinit": "^1.1.0",
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
     "semantic-release": "^22.0.12",
