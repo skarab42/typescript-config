@@ -31,12 +31,12 @@
   "prettier": "@skarab/prettier-config",
   "devDependencies": {
     "@skarab/prettier-config": "^1.2.2",
-    "@skarab/tsinit": "^1.0.2",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "semantic-release": "^19.0.3",
-    "simple-git-hooks": "^2.8.0",
-    "typescript": "^4.7.4"
+    "@skarab/tsinit": "^1.1.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "semantic-release": "^22.0.12",
+    "simple-git-hooks": "^2.9.0",
+    "typescript": "^5.3.3"
   },
   "engines": {
     "node": ">=14",
