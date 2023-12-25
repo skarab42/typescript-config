@@ -27,10 +27,10 @@
     // "disableReferencedProjectLoad": false, // Reduce the number of projects loaded automatically by TypeScript. (default: false)
 
     /** Emit */
-    "declaration": false, // Generate .d.ts files from TypeScript and JavaScript files in your project. (default: "`false`, unless `composite` is set")
+    "declaration": true, // Generate .d.ts files from TypeScript and JavaScript files in your project. (default: "`false`, unless `composite` is set")
     // "declarationMap": false, // Create sourcemaps for d.ts files. (default: false)
     // "emitDeclarationOnly": false, // Only output d.ts files and not JavaScript files. (default: false)
-    "sourceMap": false, // Create source map files for emitted JavaScript files. (default: false)
+    "sourceMap": true, // Create source map files for emitted JavaScript files. (default: false)
     // "inlineSourceMap": false, // Include sourcemap files inside the emitted JavaScript. (default: false)
     // "outFile": "", // Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. (default: "")
     // "outDir": "", // Specify an output folder for all emitted files. (default: "")
